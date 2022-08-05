@@ -1,2 +1,2 @@
 # password-generator
- generates 2 Passwords
+ generates 2 secure Passwords
