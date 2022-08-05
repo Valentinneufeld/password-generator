@@ -18,6 +18,8 @@ function generatePassword() {
 
         randomCharacter2 = characters[Math.floor(Math.random() * 91)]
         password2.textContent += randomCharacter2
+
+        testfield.textContent = "click to copy!"
     }
     
 }
