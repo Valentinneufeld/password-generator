@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<html>
+    <body class="body-style body-layout">
+        <div>
+            <h1 class="header-style header-layout">Generate
+                <br><span class="second-heading-line-style">a random password</span></h1>
+        </div>
+        <div>
+            <p class="add-text-style add-text-layout">Never use an insecure password again.</p>
+        </div>
+        <div>
+            <button class="generate-btn-style generate-btn-layout" onclick="generatePassword()">Generate passwords</button>
+        </div>
+        <div>
+            <hr id="horizontal-line">
+        </div>
+        <div>
+            <div class="password-box-group-layout">
+                <button class="password-box-style" id="password-1" onclick="copyPassword1()"></button>
+                <button class="password-box-style" id="password-2" onclick="copyPassword2()"></button>
+            </div>
+        </div>
+        <div>
+            <p id="test-field"></p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

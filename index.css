@@ -1,0 +1,99 @@
+@font-face {
+    font-family: karla;
+    src: url(fonts/karla.regular.ttf)
+}
+
+@font-face {
+    font-family: inter;
+    src: url(fonts/Inter.ttf);
+}
+
+.body-style {
+    background: #1F2937;
+    font-family: karla;
+    color: #FFFFFF;
+}
+
+.body-layout {
+    margin: 0;
+    display: grid;
+    /* gap: 1.5rem; */
+    justify-content: center;
+    margin-left: 52px;
+}
+
+.header-style {
+    font-size: 40px;
+
+}
+
+.header-layout {
+    margin-top: 115px;
+    margin-bottom: 0px;
+}
+
+.second-heading-line-style {
+    color: #4ADF86;
+}
+
+.add-text-layout {
+    margin-top: 5px;
+}
+
+.add.text-style {
+    font-size: 20px;
+}
+
+.generate-btn-style {
+    font-family: inter;
+    font-size: 16px;
+    background-color: #4ADF86;
+    border: none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
+.generate-btn-layout {
+    margin-top: 51px;
+    margin-bottom: 35px;
+    padding: 9px 17px 9px 15px;
+}
+
+#horizontal-line {
+    background-color: #2F3E53;
+    border: none;
+    height: 1px;
+}
+
+.password-box-group-layout {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
+
+}
+
+.password-box-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2F3E53;
+    height: 39px;
+    border: none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-size: 15px;
+
+}
+
+.generate-btn-style {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: all300ms ease;
+  }
+  
+  .generate-btn-style:hover {
+    box-shadow: rgba(187, 187, 245, 0.158) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+
