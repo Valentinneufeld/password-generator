@@ -12,7 +12,7 @@ function generatePassword() {
     password1.textContent = ""
     password2.textContent = ""
 
-    for (i = 0; i < 9; i++) {
+    for (i = 0; i < 16; i++) {
         randomCharacter1 = characters[Math.floor(Math.random() * 91)]
         password1.textContent += randomCharacter1
 
@@ -29,7 +29,7 @@ function copyPassword1() {
         navigator.clipboard.writeText(copyText) 
             alert("Copied Password1 to clipboard")
     } else {
-        alert("You have to generate a password first!")
+        alert("To copy, you have to generate a password first!")
     }
 }
 
@@ -40,6 +40,6 @@ function copyPassword2() {
         navigator.clipboard.writeText(copyText) 
             alert("Copied Password2 to clipboard")
         } else {
-            alert("You have to generate a password first!")
+            alert("To copy, you have to generate a password first!")
         }
 }
